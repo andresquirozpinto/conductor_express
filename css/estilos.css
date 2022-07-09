@@ -1,0 +1,93 @@
+i {
+    color: blue;
+}
+
+.icono-footer {
+    color: white;
+}
+
+.map-container {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-container iframe {
+    left: 0;
+    top: 0;
+    height: 50%;
+    width: 100%;
+    position: absolute;
+}
+
+/*------------------------------*/
+/*Resolucion para dispositivos moviles muy pequeños*/
+/*------------------------------*/
+@media (max-width: 576px) {
+    #seccion-ofrecemos-celular {
+        display: block;
+    }
+    #seccion-carrusel-celular {
+        display: block;
+    }
+    #seccion-cuerpo-pagina-celular {
+        display: block;
+    }
+    #footer-celular {
+        display: block;
+    }
+
+}
+/*------------------------------*/
+/*Resolucion para dispositivos moviles pequeños*/
+/*------------------------------*/
+@media (min-width:576px) and (max-width: 767px) {
+    #seccion-ofrecemos-celular {
+        display: none;
+    }
+    #seccion-carrusel-celular {
+        display: none;
+    }
+    #seccion-cuerpo-pagina-celular {
+        display: none;
+    }
+    #footer-celular {
+        display: none;
+    }
+}
+/*------------------------------*/
+/*Resolucion para tablets*/
+/*------------------------------*/
+/**/
+@media (min-width:768px) and (max-width: 991px) {
+    #seccion-ofrecemos-celular {
+        display: none;
+    }
+    #seccion-carrusel-celular {
+        display: none;
+    }
+    #seccion-cuerpo-pagina-celular {
+        display: none;
+    }
+    #footer-celular {
+        display: none;
+    }
+}
+/*------------------------------*/
+/*Resolucion para pc de escritorio*/
+/*------------------------------*/
+@media (min-width:992px) {
+    #seccion-ofrecemos-celular {
+        display: none;
+    }
+    #seccion-carrusel-celular {
+        display: none;
+    }
+    #seccion-cuerpo-pagina-celular {
+        display: none;
+    }
+    #footer-celular {
+        display: none;
+    }
+}
