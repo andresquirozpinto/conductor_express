@@ -37,6 +37,19 @@ i {
     #footer-celular {
         display: block;
     }
+    /*----------------------*/
+    #seccion-ofrecemos-celular-mediano {
+        display: none;
+    }
+    #seccion-carrusel-celular-mediano {
+        display: none;
+    }
+    #seccion-cuerpo-pagina-celular-mediano {
+        display: none;
+    }
+    #footer-celular-mediano {
+        display: none;
+    }
 
 }
 /*------------------------------*/
@@ -55,6 +68,20 @@ i {
     #footer-celular {
         display: none;
     }
+    /*----------------------*/
+    #seccion-ofrecemos-celular-mediano {
+        display: block;
+    }
+    #seccion-carrusel-celular-mediano {
+        display: block;
+    }
+    #seccion-cuerpo-pagina-celular-mediano {
+        display: block;
+    }
+    #footer-celular-mediano {
+        display: block;
+    }
+    
 }
 /*------------------------------*/
 /*Resolucion para tablets*/
@@ -73,6 +100,19 @@ i {
     #footer-celular {
         display: none;
     }
+    /*----------------------*/
+    #seccion-ofrecemos-celular-mediano {
+        display: none;
+    }
+    #seccion-carrusel-celular-mediano {
+        display: none;
+    }
+    #seccion-cuerpo-pagina-celular-mediano {
+        display: none;
+    }
+    #footer-celular-mediano {
+        display: none;
+    }
 }
 /*------------------------------*/
 /*Resolucion para pc de escritorio*/
@@ -88,6 +128,19 @@ i {
         display: none;
     }
     #footer-celular {
+        display: none;
+    }
+    /*----------------------*/
+    #seccion-ofrecemos-celular-mediano {
+        display: none;
+    }
+    #seccion-carrusel-celular-mediano {
+        display: none;
+    }
+    #seccion-cuerpo-pagina-celular-mediano {
+        display: none;
+    }
+    #footer-celular-mediano {
         display: none;
     }
 }
