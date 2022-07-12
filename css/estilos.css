@@ -25,122 +25,81 @@ i {
 /*Resolucion para dispositivos moviles muy pequeños*/
 /*------------------------------*/
 @media (max-width: 576px) {
-    #seccion-ofrecemos-celular {
-        display: block;
+    h2 {
+        font-size: 35px;
+        font-weight: bold;
     }
-    #seccion-carrusel-celular {
-        display: block;
+    h3 {
+        font-size: 25px;
+        font-weight: bold;
     }
-    #seccion-cuerpo-pagina-celular {
-        display: block;
+    body {
+        background-color: aqua;
     }
-    #footer-celular {
-        display: block;
+    #imagen-practica-test {
+        width: 80px;
+        height: auto;
     }
-    /*----------------------*/
-    #seccion-ofrecemos-celular-mediano {
-        display: none;
-    }
-    #seccion-carrusel-celular-mediano {
-        display: none;
-    }
-    #seccion-cuerpo-pagina-celular-mediano {
-        display: none;
-    }
-    #footer-celular-mediano {
-        display: none;
-    }
-
 }
 /*------------------------------*/
 /*Resolucion para dispositivos moviles pequeños*/
 /*------------------------------*/
 @media (min-width:576px) and (max-width: 767px) {
-    #seccion-ofrecemos-celular {
-        display: none;
+    h2 {
+        font-size: 35px;
+        font-weight: bold;
     }
-    #seccion-carrusel-celular {
-        display: none;
+    h3 {
+        font-size: 25px;
+        font-weight: bold;
     }
-    #seccion-cuerpo-pagina-celular {
-        display: none;
+    body {
+        background-color: greenyellow;
     }
-    #footer-celular {
-        display: none;
+    #imagen-practica-test {
+        width: 100px;
+        height: auto;
     }
-    /*----------------------*/
-    #seccion-ofrecemos-celular-mediano {
-        display: block;
+    .cartas {
+        height: 210px;
     }
-    #seccion-carrusel-celular-mediano {
-        display: block;
-    }
-    #seccion-cuerpo-pagina-celular-mediano {
-        display: block;
-    }
-    #footer-celular-mediano {
-        display: block;
-    }
-    
 }
 /*------------------------------*/
 /*Resolucion para tablets*/
 /*------------------------------*/
 /**/
 @media (min-width:768px) and (max-width: 991px) {
-    #seccion-ofrecemos-celular {
-        display: none;
+    h2 {
+        font-size: 28px;
+        font-weight: bold;
     }
-    #seccion-carrusel-celular {
-        display: none;
+    h3 {
+        font-size: 25px;
+        font-weight: bold;
     }
-    #seccion-cuerpo-pagina-celular {
-        display: none;
+    body {
+        background-color: red;
     }
-    #footer-celular {
-        display: none;
+    #imagen-practica-test {
+        width: 100px;
+        height: auto;
     }
-    /*----------------------*/
-    #seccion-ofrecemos-celular-mediano {
-        display: none;
-    }
-    #seccion-carrusel-celular-mediano {
-        display: none;
-    }
-    #seccion-cuerpo-pagina-celular-mediano {
-        display: none;
-    }
-    #footer-celular-mediano {
-        display: none;
+    .cartas {
+        height: 215px;
     }
 }
 /*------------------------------*/
 /*Resolucion para pc de escritorio*/
 /*------------------------------*/
 @media (min-width:992px) {
-    #seccion-ofrecemos-celular {
-        display: none;
+    h2 {
+        font-size: 35px;
     }
-    #seccion-carrusel-celular {
-        display: none;
+    h3 {
+        font-size: 25px;
+        font-weight: bold;
     }
-    #seccion-cuerpo-pagina-celular {
-        display: none;
-    }
-    #footer-celular {
-        display: none;
-    }
-    /*----------------------*/
-    #seccion-ofrecemos-celular-mediano {
-        display: none;
-    }
-    #seccion-carrusel-celular-mediano {
-        display: none;
-    }
-    #seccion-cuerpo-pagina-celular-mediano {
-        display: none;
-    }
-    #footer-celular-mediano {
-        display: none;
+    body {
+        background-color: blue;
     }
 }
