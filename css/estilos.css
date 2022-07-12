@@ -40,6 +40,9 @@ i {
         width: 80px;
         height: auto;
     }
+    .cartas-escritorio {
+        display: none;
+    }
 }
 /*------------------------------*/
 /*Resolucion para dispositivos moviles pequeños*/
@@ -63,6 +66,9 @@ i {
     .cartas {
         height: 210px;
     }
+    .cartas-escritorio {
+        display: none;
+    }
 }
 /*------------------------------*/
 /*Resolucion para tablets*/
@@ -81,11 +87,14 @@ i {
         background-color: red;
     }
     #imagen-practica-test {
-        width: 100px;
+        width: 80px;
         height: auto;
     }
     .cartas {
         height: 215px;
+    }
+    .cartas-escritorio {
+        display: none;
     }
 }
 /*------------------------------*/
@@ -100,6 +109,13 @@ i {
         font-weight: bold;
     }
     body {
-        background-color: blue;
+        background-color: skyblue;
+    }
+    .cartas {
+        height: 190px;
+    }
+    .cartas-escritorio {
+        display: block;
     }
 }
+
