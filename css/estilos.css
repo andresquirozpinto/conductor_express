@@ -43,6 +43,9 @@ i {
     .cartas-escritorio {
         display: none;
     }
+    .texto {
+        font-size: small;
+    }
 }
 /*------------------------------*/
 /*Resolucion para dispositivos moviles pequeños*/
@@ -68,6 +71,9 @@ i {
     }
     .cartas-escritorio {
         display: none;
+    }
+    .texto {
+        font-size: medium;
     }
 }
 /*------------------------------*/
@@ -96,6 +102,9 @@ i {
     .cartas-escritorio {
         display: none;
     }
+    .texto {
+        font-size: medium;
+    }
 }
 /*------------------------------*/
 /*Resolucion para pc de escritorio*/
@@ -116,6 +125,9 @@ i {
     }
     .cartas-escritorio {
         display: block;
+    }
+    .texto {
+        font-size: large;
     }
 }
 
