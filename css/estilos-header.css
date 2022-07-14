@@ -1,0 +1,166 @@
+i {
+    color: blue;
+}
+
+.icono-footer {
+    color: white;
+}
+
+.map-container {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-container iframe {
+    left: 0;
+    top: 0;
+    height: 50%;
+    width: 100%;
+    position: absolute;
+}
+
+/*------------------------------*/
+/*Resolucion para dispositivos moviles muy pequeños*/
+/*------------------------------*/
+@media (max-width: 576px) {
+    .logo-header {
+        display: none;
+    }
+    #logo-cabecera {
+        width: auto;
+        height: 70px;
+    }
+    #calendario-icon {
+        font-size: 20px;
+    }
+    #direccion-icon {
+        font-size: 20px;
+    }
+    #celular-icon {
+        font-size: 20px;
+    }
+    .texto-titulos-cabecera {
+        color: rgb(21, 21, 121);
+        font-size: 14px;
+    }
+    .span-telefono {
+        display: none;   
+    }
+    .texto {
+        font-size: 11px;
+    }
+}
+/*------------------------------*/
+/*Resolucion para dispositivos moviles pequeños*/
+/*------------------------------*/
+@media (min-width:576px) and (max-width: 767px) {
+    .logo-header {
+        display: none;
+    }
+    #logo-cabecera {
+        width: auto;
+        height: 70px;
+    }
+    #calendario-icon {
+        font-size: 22px;
+    }
+    #direccion-icon {
+        font-size: 22px;
+    }
+    #celular-icon {
+        font-size: 22px;
+    }
+    .texto-titulos-cabecera {
+        color: rgb(21, 21, 121);
+        font-size: 16px;
+    }
+    .span-telefono {
+        display: none;   
+    }
+    .texto {
+        font-size: 12px;
+    }
+}
+/*------------------------------*/
+/*Resolucion para tablets*/
+/*------------------------------*/
+/**/
+@media (min-width:768px) and (max-width: 991px) {
+    .logo-header {
+        display: none;
+    }
+    #logo-cabecera {
+        width: auto;
+        height: 70px;
+    }
+    #calendario-icon {
+        font-size: 24px;
+    }
+    #direccion-icon {
+        font-size: 24px;
+    }
+    #celular-icon {
+        font-size: 24px;
+    }
+    .texto-titulos-cabecera {
+        color: rgb(21, 21, 121);
+        font-size: 18px;
+    }
+    .span-telefono {
+        display: none;   
+    }
+    .texto {
+        font-size: 13px;
+    }
+}
+/*------------------------------*/
+/*Resolucion para pc de escritorio*/
+/*------------------------------*/
+@media (min-width:992px) {
+    .logo-header {
+        width: auto;
+        height: 70px;
+    }
+    #logo-cabecera {
+        display: none;
+    }
+    #calendario-icon {
+        font-size: 28px;
+        margin-left: -40px;
+    }
+    #direccion-icon {
+        font-size: 28px;
+        margin-left: -40px;
+    }
+    #celular-icon {
+        font-size: 28px;
+        margin-left: -40px;
+    }
+    .titulos-cabecera-escritorio {
+        color: rgb(21, 21, 121);
+        font-size: 20px;
+        margin-top: -35px;
+    }
+    .margen-calendario {
+        margin-left: 200px;
+    }
+    .margen-direccion {
+        margin-left: 60px;
+    }
+    .margen-celular {
+        margin-right: 10px;
+    }
+    .span-telefono {
+        display: block;
+        margin-top: -10px;
+    }
+    .texto-escritorio {
+        display: none;
+    }
+    .texto {
+        font-size: 14px;
+    }
+}
+
