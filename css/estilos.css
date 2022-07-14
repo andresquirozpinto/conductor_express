@@ -114,7 +114,7 @@ i {
         font-size: 35px;
     }
     h3 {
-        font-size: 25px;
+        font-size: 35px;
         font-weight: bold;
     }
     body {
@@ -126,8 +126,8 @@ i {
     .cartas-escritorio {
         display: block;
     }
-    .texto {
-        font-size: large;
+    .texto-ofrecemos {
+        font-size: 20px;
     }
 }
 

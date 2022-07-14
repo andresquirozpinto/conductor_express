@@ -130,7 +130,7 @@ i {
 @media (min-width:992px) {
     .logo-header {
         width: auto;
-        height: 90px;
+        height: 80px;
     }
     #logo-cabecera {
         display: none;
