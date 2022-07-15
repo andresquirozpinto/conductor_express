@@ -1,0 +1,100 @@
+i {
+    color: blue;
+}
+
+/*------------------------------*/
+/*Resolucion para dispositivos moviles muy pequeños*/
+/*------------------------------*/
+@media (max-width: 576px) {
+    .fa-calendar-days {
+        font-size: 16px;
+    }
+
+    .fa-clock {
+        font-size: 16px;
+    }
+
+    .fa-phone-flip {
+        font-size: 16px;
+    }
+
+    .fa-envelope {
+        font-size: 16px;
+    }
+}
+
+/*------------------------------*/
+/*Resolucion para dispositivos moviles pequeños*/
+/*------------------------------*/
+@media (min-width:576px) and (max-width: 767px) {
+    .fa-calendar-days {
+        font-size: 16px;
+        margin-left: -35px;
+    }
+
+    .fa-clock {
+        font-size: 16px;
+        margin-left: -35px;
+    }
+
+    .fa-phone-flip {
+        font-size: 16px;
+        margin-left: -35px;
+    }
+
+    .fa-envelope {
+        font-size: 16px;
+        margin-left: -35px;
+    }
+}
+
+/*------------------------------*/
+/*Resolucion para tablets*/
+/*------------------------------*/
+/**/
+@media (min-width:768px) and (max-width: 991px) {
+    .fa-calendar-days {
+        font-size: 18px;
+        margin-left: -35px;
+    }
+
+    .fa-clock {
+        font-size: 18px;
+        margin-left: -35px;
+    }
+
+    .fa-phone-flip {
+        font-size: 18px;
+        margin-left: -35px;
+    }
+
+    .fa-envelope {
+        font-size: 18px;
+        margin-left: -35px;
+    }
+}
+
+/*------------------------------*/
+/*Resolucion para pc de escritorio*/
+/*------------------------------*/
+@media (min-width:992px) {
+    .fa-calendar-days {
+        font-size: 20px;
+        margin-left: -35px;
+    }
+
+    .fa-clock {
+        font-size: 20px;
+        margin-left: -35px;
+    }
+
+    .fa-phone-flip {
+        font-size: 20px;
+        margin-left: -35px;
+    }
+
+    .fa-envelope {
+        font-size: 20px;
+        margin-left: -35px;
+    }
+}

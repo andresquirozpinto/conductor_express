@@ -26,19 +26,16 @@ i {
         background-color: greenyellow;
     }
 
-    #calendario-icon {
+    .fa-calendar-days {
         font-size: 16px;
-        margin-left: -35px;
     }
 
-    #direccion-icon {
+    .fa-location-arrow {
         font-size: 16px;
-        margin-left: -35px;
     }
 
-    #celular-icon {
+    .fa-phone {
         font-size: 16px;
-        margin-left: -35px;
     }
 
     #logo-header {
@@ -95,17 +92,17 @@ i {
         background-color: red;
     }
 
-    #calendario-icon {
+    .fa-calendar-days {
         font-size: 16px;
         margin-left: -35px;
     }
 
-    #direccion-icon {
+    .fa-location-arrow {
         font-size: 16px;
         margin-left: -35px;
     }
 
-    #celular-icon {
+    .fa-phone {
         font-size: 16px;
         margin-left: -35px;
     }
@@ -165,17 +162,17 @@ i {
         background-color: aqua;
     }
 
-    #calendario-icon {
+    .fa-calendar-days {
         font-size: 18px;
         margin-left: -35px;
     }
 
-    #direccion-icon {
+    .fa-location-arrow {
         font-size: 18px;
         margin-left: -35px;
     }
 
-    #celular-icon {
+    .fa-phone {
         font-size: 18px;
         margin-left: -35px;
     }
@@ -230,17 +227,17 @@ i {
         display: none;
     }
 
-    #calendario-icon {
+    .fa-calendar-days {
         font-size: 20px;
         margin-left: -35px;
     }
 
-    #direccion-icon {
+    .fa-location-arrow {
         font-size: 20px;
         margin-left: -35px;
     }
 
-    #celular-icon {
+    .fa-phone {
         font-size: 20px;
         margin-left: -35px;
     }
@@ -249,6 +246,10 @@ i {
         width: auto;
         height: 75px;
         margin-right: 0px;
+    }
+
+    body {
+        background-color: rgba(244, 250, 69, 0.478);
     }
 
     .margen-calendario {
