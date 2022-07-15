@@ -6,7 +6,23 @@ i {
 /*Resolucion para dispositivos moviles muy pequeños*/
 /*------------------------------*/
 @media (max-width: 576px) {
-    .fa-calendar-days {
+    #footer-contenedor-celular {
+        display: block;
+    }
+
+    #footer-contenedor-tablet-pequenia {
+        display: none;
+    }
+
+    #footer-contenedor-tablet {
+        display: none;
+    }
+
+    #footer-contenedor-escritorio {
+        display: none;
+    }
+
+    .fa-location-dot {
         font-size: 16px;
     }
 
@@ -30,24 +46,36 @@ i {
 /*Resolucion para dispositivos moviles pequeños*/
 /*------------------------------*/
 @media (min-width:576px) and (max-width: 767px) {
-    .fa-calendar-days {
+    #footer-contenedor-celular {
+        display: none;
+    }
+
+    #footer-contenedor-tablet-pequenia {
+        display: block;
+    }
+
+    #footer-contenedor-tablet {
+        display: none;
+    }
+
+    #footer-contenedor-escritorio {
+        display: none;
+    }
+
+    .fa-location-dot {
         font-size: 16px;
-        margin-left: -35px;
     }
 
     .fa-clock {
         font-size: 16px;
-        margin-left: -35px;
     }
 
     .fa-phone-flip {
         font-size: 16px;
-        margin-left: -35px;
     }
 
     .fa-envelope {
         font-size: 16px;
-        margin-left: -35px;
     }
 }
 
@@ -56,7 +84,23 @@ i {
 /*------------------------------*/
 /**/
 @media (min-width:768px) and (max-width: 991px) {
-    .fa-calendar-days {
+    #footer-contenedor-celular {
+        display: none;
+    }
+
+    #footer-contenedor-tablet-pequenia {
+        display: none;
+    }
+
+    #footer-contenedor-tablet {
+        display: block;
+    }
+
+    #footer-contenedor-escritorio {
+        display: none;
+    }
+
+    .fa-location-dot {
         font-size: 18px;
         margin-left: -35px;
     }
@@ -81,7 +125,23 @@ i {
 /*Resolucion para pc de escritorio*/
 /*------------------------------*/
 @media (min-width:992px) {
-    .fa-calendar-days {
+    #footer-contenedor-celular {
+        display: none;
+    }
+
+    #footer-contenedor-tablet-pequenia {
+        display: none;
+    }
+
+    #footer-contenedor-tablet {
+        display: none;
+    }
+
+    #footer-contenedor-escritorio {
+        display: block;
+    }
+
+    .fa-location-dot {
         font-size: 20px;
         margin-left: -35px;
     }
