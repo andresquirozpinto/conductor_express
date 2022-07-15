@@ -62,7 +62,7 @@ i {
     .nav-link {
         transition: all .5s ease;
         background-color: transparent;
-        font-size: 13px;
+        font-size: 15px;
         font-weight: bold;
     }
 
@@ -131,7 +131,7 @@ i {
     .btn {
         transition: all .5s ease;
         background-color: transparent;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: bold;
     }
 
@@ -201,7 +201,7 @@ i {
     .btn {
         transition: all .5s ease;
         background-color: transparent;
-        font-size: 15px;
+        font-size: 17px;
         font-weight: bold;
     }
 
@@ -264,7 +264,7 @@ i {
     .btn {
         transition: all .5s ease;
         background-color: transparent;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: bold;
     }
 
