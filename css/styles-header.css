@@ -6,67 +6,269 @@ i {
 /*Resolucion para dispositivos moviles muy pequeños*/
 /*------------------------------*/
 @media (max-width: 576px) {
-    .contenedor-escritorio {
+    #header-contenedor-escritorio {
         display: none;
     }
+
+    #header-contenedor-tablet {
+        display: none;
+    }
+
+    #header-contenedor-tablet-pequenia {
+        display: none;
+    }
+
+    #header-contenedor-celular {
+        display: block;
+    }
+
+    body {
+        background-color: greenyellow;
+    }
+
+    #calendario-icon {
+        font-size: 16px;
+        margin-left: -35px;
+    }
+
+    #direccion-icon {
+        font-size: 16px;
+        margin-left: -35px;
+    }
+
+    #celular-icon {
+        font-size: 16px;
+        margin-left: -35px;
+    }
+
+    #logo-header {
+        width: auto;
+        height: 55px;
+        margin-right: 0px;
+    }
+
+    .margen-calendario {
+        margin-right: 35px;
+    }
+
+    .margen-direccion {
+        margin-left: -5px;
+    }
+
+    .margen-celular {
+        margin-left: 35px;
+    }
+
+    .nav-link {
+        transition: all .5s ease;
+        background-color: transparent;
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .nav-link:hover {
+        background-color: rgba(9, 0, 179, 0.584);
+    }
 }
+
 /*------------------------------*/
 /*Resolucion para dispositivos moviles pequeños*/
 /*------------------------------*/
 @media (min-width:576px) and (max-width: 767px) {
-    .contenedor-escritorio {
+    #header-contenedor-escritorio {
         display: none;
     }
-}
-/*------------------------------*/
-/*Resolucion para tablets*/
-/*------------------------------*/
-/**/
-@media (min-width:768px) and (max-width: 991px) {
-    .contenedor-escritorio {
+
+    #header-contenedor-tablet {
         display: none;
     }
-}
-/*------------------------------*/
-/*Resolucion para pc de escritorio*/
-/*------------------------------*/
-@media (min-width:992px) {
-    .contenedor-escritorio {
+
+    #header-contenedor-tablet-pequenia {
         display: block;
     }
+
+    #header-contenedor-celular {
+        display: none;
+    }
+
+    body {
+        background-color: red;
+    }
+
     #calendario-icon {
-        font-size: 20px;
+        font-size: 16px;
         margin-left: -35px;
     }
+
     #direccion-icon {
-        font-size: 20px;
+        font-size: 16px;
         margin-left: -35px;
     }
+
     #celular-icon {
-        font-size: 20px;
+        font-size: 16px;
         margin-left: -35px;
     }
+
     #logo-header {
         width: auto;
-        height: 75px;
+        height: 55px;
         margin-right: 0px;
     }
+
     .margen-calendario {
         margin-right: 35px;
     }
-    .margen-direccion {
 
+    .margen-direccion {
+        margin-left: -5px;
     }
+
     .margen-celular {
         margin-left: 35px;
     }
-    
+
     .btn {
-    transition: all .5s ease;
-    background-color : transparent;
-}
+        transition: all .5s ease;
+        background-color: transparent;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
     .btn:hover {
         background-color: rgba(9, 0, 179, 0.584);
     }
 }
 
+/*------------------------------*/
+/*Resolucion para tablets*/
+/*------------------------------*/
+/**/
+@media (min-width:768px) and (max-width: 991px) {
+    #header-contenedor-escritorio {
+        display: none;
+    }
+
+    #header-contenedor-tablet {
+        display: block;
+    }
+
+    #header-contenedor-tablet-pequenia {
+        display: none;
+    }
+
+    #header-contenedor-celular {
+        display: none;
+    }
+
+    body {
+        background-color: aqua;
+    }
+
+    #calendario-icon {
+        font-size: 18px;
+        margin-left: -35px;
+    }
+
+    #direccion-icon {
+        font-size: 18px;
+        margin-left: -35px;
+    }
+
+    #celular-icon {
+        font-size: 18px;
+        margin-left: -35px;
+    }
+
+    #logo-header {
+        width: auto;
+        height: 65px;
+        margin-right: 0px;
+    }
+
+    .margen-calendario {
+        margin-right: 35px;
+    }
+
+    .margen-direccion {
+        margin-left: -5px;
+    }
+
+    .margen-celular {
+        margin-left: 35px;
+    }
+
+    .btn {
+        transition: all .5s ease;
+        background-color: transparent;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .btn:hover {
+        background-color: rgba(9, 0, 179, 0.584);
+    }
+}
+
+/*------------------------------*/
+/*Resolucion para pc de escritorio*/
+/*------------------------------*/
+@media (min-width:992px) {
+    #header-contenedor-escritorio {
+        display: block;
+    }
+
+    #header-contenedor-tablet {
+        display: none;
+    }
+
+    #header-contenedor-tablet-pequenia {
+        display: none;
+    }
+
+    #header-contenedor-celular {
+        display: none;
+    }
+
+    #calendario-icon {
+        font-size: 20px;
+        margin-left: -35px;
+    }
+
+    #direccion-icon {
+        font-size: 20px;
+        margin-left: -35px;
+    }
+
+    #celular-icon {
+        font-size: 20px;
+        margin-left: -35px;
+    }
+
+    #logo-header {
+        width: auto;
+        height: 75px;
+        margin-right: 0px;
+    }
+
+    .margen-calendario {
+        margin-right: 35px;
+    }
+
+    .margen-direccion {}
+
+    .margen-celular {
+        margin-left: 35px;
+    }
+
+    .btn {
+        transition: all .5s ease;
+        background-color: transparent;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .btn:hover {
+        background-color: rgba(9, 0, 179, 0.584);
+    }
+}
