@@ -11,52 +11,78 @@
   <link rel="stylesheet" href="css/styles-header.css">
   <link rel="stylesheet" href="css/styles-footer.css">
   <link rel="stylesheet" href="css/styles-carrusel.css">
+  <link rel="stylesheet" href="css/styles-ofrecemos.css">
 </head>
 
 <body>
   <header>
     <div id="header-contenedor-escritorio">
-      <section class="container-fluid bg-light">
-        <div class="row align-items-center mb-1">
-          <div class="col-xl-3 col-lg-3 d-flex justify-content-end">
-            <img src="img/logo.png" alt="" class="img-fluid" id="logo-header">
-          </div>
-          <div class="col-xl-3 col-lg-3 text-end">
-            <div class="margen-calendario">
-              <p class="fw-bold" style="font-size: 14px;"><i class="fa-solid fa-calendar-days"></i>
+      <section>
+
+        <div class="container-fluid gx-5 text-white contenedor-info">
+          <div class="row">
+            <div class="col-xl-2"></div>
+            <div class="col-xl-2"></div>
+            <div class="col-xl-2"></div>
+            <div class="col-xl-1"></div>
+            <div class="col-xl-2 ">
+              <p class="fw-bold text-end" style="font-size: 11px;"><i class="fa-solid fa-calendar-days text-white"></i>
                 09:00 a.m - 20:15 p.m</p>
             </div>
-          </div>
-          <div class="col-xl-3 col-lg-3 text-center">
-            <div class="margen-direccion">
-              <p class="fw-bold" style="font-size: 14px;"><i class="fa-solid fa-location-arrow"></i>
+            <div class="col-xl-2 ">
+              <p class="fw-bold text-center" style="font-size: 11px;"><i
+                  class="fa-solid fa-location-arrow text-white"></i>
                 Esmeralda N°1039 Segundo
                 Piso,Talagante</p>
             </div>
-          </div>
-          <div class="col-xl-3 col-lg-3 text-start">
-            <div class="margen-celular">
-              <p class="fw-bold" style="font-size: 14px;"><i class="fa-solid fa-phone"></i>
-                56950106515 / 44 - 3053412</p>
+            <div class="col-xl-1">
+              <p class="fw-bold text-end" style="font-size: 11px;"><i class="fa-solid fa-phone text-white"></i>
+                56950106515 / 44-3053412</p>
             </div>
           </div>
         </div>
+
       </section>
 
-      <section class="container-fluid">
-        <div class="row bg-primary border border-dark border-2">
-          <div class="col-12 text-center">
-            <a type="button" class="text-white btn btn-primary p-3" aria-current="page" href="#">Inicio</a>
-            <a type="button" class="text-white btn btn-primary p-3" aria-current="page" href="#">Nosotros</a>
-            <a type="button" class="text-white btn btn-primary p-3" aria-current="page" href="#">Cursos</a>
-            <a type="button" class="text-white btn btn-primary p-3" aria-current="page" href="#">Contacto</a>
-            <a type="button" class="text-white btn btn-primary p-3" aria-current="page" href="#">Matriculate Aquí</a>
+
+      <section class="container">
+        <nav class="navbar navbar-expand-lg border border-0">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.png" alt="" class="img-fluid" id="logo-header">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            style="background-color: rgba(135, 135, 135, 0.401);" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon mt-2">
+              <i class="fas fa-bars fa-lg"></i>
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div id="test">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active fw-bold border-end" aria-current="page" href="#">INICIO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold border-end" href="#">NOSOTROS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold border-end" href="#">CURSOS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold border-end" href="#">CONTACTO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold" href="#">MATRICULATE AQUI</a>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
+        </nav>
       </section>
     </div>
 
-    <div id="header-contenedor-tablet">
+    <!-- <div id="header-contenedor-tablet">
       <section class="container-fluid bg-light">
         <div class="row align-items-center mb-1">
           <div class="col-md-3 d-flex justify-content-end">
@@ -202,23 +228,23 @@
           </nav>
         </div>
       </section>
-    </div>
+    </div> -->
 
   </header>
 
-  <section id="seccion-carrusel-escritorio">
+  <section id="seccion-carrusel">
     <div class="row-fluid">
-      <!--
-        <img src="img/banner1.svg" alt="" class="img-fluid" id="banner1-escritorio">
-      -->
-
       <div id="control_carrusel" class="carousel slide" data-bs-ride="carousel"">
         <div class=" carousel-inner">
         <div class="carousel-item active">
-          <img src="img/banner2.svg" alt="" class="img-fluid" id="banner1-escritorio">
+          <div style="height: 350px; background-color:rgba(0, 8, 121, 0.097);">
+          </div>
+          <!-- <img src="img/banner2.svg" alt="" class="img-fluid" id="banner1-escritorio"> -->
         </div>
         <div class="carousel-item">
-          <img src="img/banner1.svg" alt="" class="img-fluid" id="banner1-escritorio">
+          <div style="height: 350px; background-color:rgba(0, 8, 121, 0.097);">
+          </div>
+          <!-- <img src="img/banner1.svg" alt="" class="img-fluid" id="banner1-escritorio"> -->
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#control_carrusel" data-bs-slide="prev">
@@ -230,21 +256,75 @@
         <span class="visually-hidden">Siguiente</span>
       </button>
     </div>
-
-
     </div>
 
   </section>
 
-  <section class="container-fluid text-center">
+  <section class="" id="seccion-ofrecemos">
+    <div class="container">
+      <div class="row mx-5 align-items-center">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+          
+            <div class="card card-block">
+              <h4 class="card-title"></h4>
+              <img src="https://static.pexels.com/photos/7096/people-woman-coffee-meeting.jpg" alt="Photo of sunset">
+              <h5 class="card-title mt-3 mb-3">Curso de Conduccion Clase B</h5>
+              <p class="card-text">Te ofrecemos cursos de conducir para obtener licencia clase B de una manera intuitiva para más facilidad y eficiencia en el aprendizaje.</p>
+            </div>
 
-    <div class="row">
-      <div class="col bg-primary">
-        <h2 class="text-white">¿Por qué escogernos?</h2>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center">
+          <a href="#"><img src="img/logo_practicatest.jpg" class="w-75 mt-4" alt=""></a>
+          <h3 class="mt-4 text-center">"Una alianza para un mejor servicio"</h3>
+        </div>
       </div>
     </div>
 
-    <div class="row mt-3">
+    <div class="container text-center bg-success">
+      sdfsd
+      <div class="row bg-warning">
+        <div class="col-6 bg-danger">
+          <h2 class="h2">Curso de Conducir Completo</h2>
+          <h4><i class="fa-solid fa-user"></i>1 Estudiante</h4>
+          <h5>$134.900</h5>
+        </div>
+        <div class="col-6 col-sm-6 col-md-6 col-lg-6 bg-info">
+          <table class="table table-hover table-borderless text-start">
+            <tbody>
+              <tr>
+                <th scope="row"><i class="fa-solid fa-check"></i></th>
+                <td>12 Clases Prácticas(45)</td>
+              </tr>
+              <tr>
+                <th scope="row"><i class="fa-solid fa-check"></i></th>
+                <td>Preparación Teórica(Clases Presenciales)</td>
+              </tr>
+              <tr>
+                <th scope="row"><i class="fa-solid fa-check"></i></th>
+                <td>Prácticas Psicotécnicas</td>
+              </tr>
+              <tr>
+                <th scope="row"><i class="fa-solid fa-check"></i></th>
+                <td>Auto para Examen Municipal</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="text-center" id="seccion-cartas">
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col bg-primary">
+          <h2 class="text-white">¿Por qué escogernos?</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-3 mx-5">
       <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3">
         <div class="shadow mb-4 bg-body rounded cartas">
           <div class="mx-2">
@@ -318,34 +398,31 @@
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3">
-        <div class="shadow mb-4 bg-body rounded cartas">
-          <div class="mx-2">
-            <i class="fa-solid fa-lightbulb fa-2x mb-2 mt-2"></i>
-            <h4>Aprendizaje Activo</h4>
-            <p class="texto">Actualmente la obtención más moderna de información es a través de
-              archivos,
-              de tal manera todo
-              el contenido que ofrecemos siempre estará actualizado.</p>
+    <div class="container mt-2">
+      <div class="row">
+        <div class="col-12 col-sm-6">
+          <div class="card card-block">
+            <h4 class="card-title text-right"><i class="material-icons">settings</i></h4>
+            <img src="https://static.pexels.com/photos/7096/people-woman-coffee-meeting.jpg" alt="Photo of sunset">
+            <h5 class="card-title mt-3 mb-3">Sierra Web Development • Owner</h5>
+            <p class="card-text">This is a company that builds websites, web apps and e-commerce solutions.</p>
           </div>
         </div>
-      </div>
-
-      <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3">
-        <div class="shadow mb-4 bg-body rounded cartas">
-          <div class="mx-2">
-            <i class="fa-solid fa-lightbulb fa-2x mb-2 mt-2"></i>
-            <h4>Aprendizaje Activo</h4>
-            <p class="texto">Actualmente la obtención más moderna de información es a través de
-              archivos,
-              de tal manera todo
-              el contenido que ofrecemos siempre estará actualizado.</p>
+        <div class="col-12 col-sm-6 -">
+          <div class="card card-block">
+            <h4 class="card-title text-right"><i class="material-icons">settings</i></h4>
+            <img src="https://static.pexels.com/photos/7357/startup-photos.jpg" alt="Photo of sunset">
+            <h5 class="card-title  mt-3 mb-3">ProVyuh</h5>
+            <p class="card-text">This is a company that builds websites, web .</p>
           </div>
         </div>
+        
       </div>
 
     </div>
+
 
   </section>
 
