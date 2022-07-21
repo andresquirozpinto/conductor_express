@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesion</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <head>
+        <!-- <div th:replace="/web/registroweb/includes/head"></div> -->
+        <style>
+            body {
+                background-color: #082255;
+            }
+
+            .bg-login-image-conductor-express {
+                background: url("../img/portada3.jpeg");
+                background-position: center;
+                background-size: cover;
+            }
+
+            fieldset.user .form-control-user {
+                font-size: .8rem;
+                border-radius: 10rem;
+                padding: 1.5rem 1rem;
+            }
+
+            fieldset.user .btn-user {
+                font-size: .8rem;
+                border-radius: 10rem;
+                padding: 0.75rem 1rem;
+            }
+
+            #logo_small {
+                width: 100%;
+            }
+        </style>
+    </head>
+
+    <body class="bg-gradient-exponor">
+
+        <div class="container mt-5">
+
+            <div class="row text-center d-block d-md-none">
+                <div class="col-12">
+                    <img src="../img/logoconductorexpress.jpg" alt="logo" id="logo_small" />
+                    <br />
+                    <br />
+                </div>
+            </div>
+
+            <!-- Outer Row -->
+            <div class="row justify-content-center">
+
+                <div class="col-xl-10 col-lg-12 col-md-9">
+
+                    <div class="card o-hidden border-0 shadow-lg mb-5">
+                        <div class="card-body p-0">
+                            <!-- Nested Row within Card Body -->
+                            <div class="row">
+                                <div class="col-lg-6 d-none d-lg-block bg-login-image-conductor-express"></div>
+                                <div class="col-lg-6" id="expo-form">
+                                    <div class="p-5">
+                                        <div class="text-center">
+                                            <h1 class="h4 text-gray-900 mb-4">Inicio de sesion</h1>
+                                        </div>
+                                        <fieldset id="formularioRegistro">
+                                            <div class="form-group">
+                                                <label class="form-label">Usuario</label>
+                                                <input type="text" class="form-control " name="nombre" minlength="1"
+                                                    data-focus="true" required>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="form-label">Pass</label>
+                                                <input type="text" class="form-control" name="username"
+                                                    data-focus="true" data-type="email" required>
+                                            </div>
+
+                                            <button class="btn btn-primary mt-4" id="btnLogin">Continue</button>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- <div th:replace="/web/registroweb/includes/js"></div>
+<script th:src="@{/js/web/registroweb/registro.js}"></script> -->
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script src="../js/jquery-3.6.0.min.js"></script>
+        <script src="js/login.js"></script>
+    </body>
+
+    </html>
