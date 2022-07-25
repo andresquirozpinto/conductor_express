@@ -1,12 +1,8 @@
-// window.onload = function () {
-//     let btnLogin = $("#btnLogin")
-
-//     btnLogin.click(function(){
-//         alert('apretando')
-//     })
-
-//  } 
 var currentPage = currentPage || {};
+
+currentPage.params = {
+    TOKEN_ALMACENADO : "_TOKEN_"
+}
 
 currentPage.events = {
 
@@ -16,20 +12,42 @@ currentPage.events = {
 currentPage.Main = function ($) {
     let btnLogin
     let valorRandom
+    let inputUsuario
+    let inputPassword
+    let parametroString
 
     let init = function () {
         btnLogin = $("#btnLogin")
-        
+
 
         btnLogin.click(function () {
-            valorRandom = _generateString(10)
-            console.log("valor : "+valorRandom)
+            inputUsuario = $("#input-usuario").val()
+            inputPassword = $("#input-password").val()
+            console.log(inputUsuario)
+            console.log(inputPassword)
+            if (inputUsuario!="hola" || inputPassword!="123") {
+                console.log('incorrecto usuario')
+            } else{
+                valorRandom = _generateString(10)
+                //location.href = 'http://127.0.0.1:5500/curso/educacion_vial/elementos'
+                //console.log("valor : " + valorRandom)
+                console.log('correcto usuario')
+                _redireccionar(valorRandom)
+                localStorage.setItem(currentPage.params.TOKEN_ALMACENADO, valorRandom)
+  
+            }
+
         })
 
     }
 
+    let _redireccionar = function (valorRandom) {
+        console.log("valor en metodo : " + valorRandom)
+
+    }
+
     let _generateString = function (length) {
-        const characters ='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'
+        const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'
         let result = ' '
         const charactersLength = characters.length
         for (let i = 0; i < length; i++) {
@@ -45,5 +63,7 @@ currentPage.Main = function ($) {
 }(jQuery);
 
 $(document).ready(function () {
+    localStorage.clear()
+    if(!localStorage.getItem(currentPage.params.TOKEN_ALMACENADO)) localStorage.setItem(currentPage.params.TOKEN_ALMACENADO, "0")
     currentPage.Main.init()
 });
